@@ -60,7 +60,10 @@ div.addEventListener("mouseover",()=>
             color += letters[Math.floor((Math.random()*16))]
         }
         console.log(color);
-    return div.style.backgroundColor = color
+        div.style.backgroundColor = color
+        let currentOpacity = parseFloat(div.style.opacity) || 0.2
+        if (currentOpacity<1) div.style.opacity = (currentOpacity + 0.1).toFixed(2)
+        
     })
 container.appendChild(div)
 }
