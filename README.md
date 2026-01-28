@@ -1,4 +1,4 @@
 # Etch-a-Sketch
 from the TOP
 
-[add gh](https://darkferrari.github.io/Etch-a-Sketch/)
+[Click to visit my Etch-a-Sketch](https://darkferrari.github.io/Etch-a-Sketch/)
